@@ -1,0 +1,537 @@
+/*custom style sheet */
+
+/* Typography */
+h2{
+    font-size:40px;
+    color: #181174;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-family: 'Oswald' , sans-serif;
+}
+
+h3{
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+
+}
+h4{
+    font-family: 'Raleway' , sans-serif;
+    font-size:25px;
+    color: #181174;
+    text-transform: uppercase;
+
+}
+
+h5{
+    font-family: 'Oswald' , sans-serif;
+}
+
+p{
+    font-family: 'Raleway' , sans-serif;
+}
+
+/* Spacing */
+.gap100{
+    padding:70px 0px;
+}
+
+
+/*Navbar Decoration */
+.mynav{
+    background: #FFF !important;
+}
+
+.trn{
+    background: transparent !important;
+    z-index: 99;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: purple !important;
+    text-shadow: 3px 3px 5px #777;
+    margin-left: 100px;
+    
+}
+
+.mynav a{
+    margin-right: 30px;
+    color:#181174!important;
+    border-bottom:2px solid transparent;
+}
+
+.mynav a:hover{
+    border-bottom:2px solid #181174;
+}
+
+.trn a{
+    margin-right: 30px;
+    color:#FFF!important;
+    border-bottom:2px solid transparent;
+}
+
+.trn a:hover{
+    border-bottom:2px solid #FFF;
+}
+
+.hactive a{
+    border-bottom:2px solid #FFF;
+}
+
+.active a{
+    border-bottom:2px solid #000;
+}
+
+.mrt a{
+    background: #181174;
+    color: #FFF !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    box-shadow: 3px 3px 5px #777;
+    width: 130px;
+    text-align: center;
+}
+
+.mrt a:hover {
+    background: #e42448;
+    box-shadow: none;
+    border-bottom:2px solid transparent;
+}
+
+.navbar-brand:hover{
+    border-bottom:2px solid transparent!important;
+}
+
+@media only screen and (max-width: 1140px){
+    .navbar-brand{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .mrt a{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Page Header */
+
+#phdr{
+    background-image:linear-gradient(#181174, #731397);
+    margin-top: 100px;
+}
+.h2w{
+    font-family: 'Oswald' , sans-serif;
+    font-size:40px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+.bread{
+    color: #FFF;
+    padding-top: 60px;
+}
+.bread a{
+    color: #FFF;
+    text-decoration: none
+}
+
+/*Slider Section*/
+/* .bd-example{
+    margin-top: -100px;
+} */
+
+.carousel-caption{
+   
+    margin-bottom: 30% !important;
+    padding: 50px 100px;
+    width: 50%;
+
+}
+.carousel-caption h5{
+    font-size:60px;
+    text-transform: uppercase;
+  }
+  .carousel-caption p{
+    font-size:20px;
+  }
+
+  .drk:after{
+      content:"";
+      display: block;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      /* background: #000; */
+      opacity: 0.5;
+  }
+
+  .ccd{
+    background: rgba(0,0,0,0.6) ;
+    /* opacity: 0.5; */
+  }
+
+  @media only screen and (max-width:1600px){
+    .carousel-caption{
+        margin-bottom:10%;
+        width:70%;
+    }
+    
+  }
+
+  @media only screen and (max-width:1300px){
+    .carousel-caption{
+        margin-bottom:5%;
+    }
+    .carousel-caption h5{
+        font-size:30px;
+      }
+      .carousel-caption p{
+        font-size:16px;
+      }
+  }
+
+  @media only screen and (max-width:960px){
+    .carousel-caption{
+        margin-bottom:0%;
+    }
+    .btn-primary, .btn-success, .btn-danger{
+        width: 150px !important;
+        margin:5px 8px !important;
+        padding: 5px 10px !important;
+    }
+    .c3{
+        margin-bottom: -5%;
+    }
+   
+  }
+
+  @media only screen and (max-width:767px){
+    .btn {
+        display: none;
+    }
+    .carousel-caption{
+        margin-bottom:5%;
+        padding:25px;
+    }
+    .carousel-caption h5{
+        font-size:20px;
+      }
+      .carousel-caption p{
+        font-size:12px;
+      }
+  }
+
+  @media only screen and (max-width:400px){
+
+    .carousel-caption{
+        margin-bottom:0%;
+    }
+  }
+
+  /*Button*/
+  .btn-primary{
+    background: #e42448;
+    border-color: transparent!important;
+    color: #FFF !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    width: 200px;
+    text-align: center;
+    margin:10px 15px;
+  }
+
+  .btn-primary:hover{
+      background: #731397;
+  }
+
+  .btn-success{
+    background: #181174;
+    border-color: transparent!important;
+    color: #FFF !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    width: 200px;
+    text-align: center;
+    margin:10px 15px;
+  }
+
+  .btn-success:hover{
+      background: #731397;
+  }
+
+  .btn-danger{
+    background: #731397;
+    border-color: transparent!important;
+    color: #FFF !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    width: 200px;
+    text-align: center;
+    margin:10px 15px;
+  }
+
+  .btn-danger:hover{
+      background: #e42448;
+  }
+
+  .frt{
+      float:right;
+  }
+
+  /* Footer */
+  footer{
+      background: #444;
+      padding: 30px;
+
+  }
+  .copy{
+      padding-top: 30px
+  }
+  .smed i{
+      color:#FFF;
+      font-size: 40px;
+      margin:10px;
+      padding-top: 10px;
+  }
+  .smed i:hover{
+    color:#e42448;
+}
+/*Team*/
+#team{
+    background-image: linear-gradient(#181174, #731397);
+}
+.tm{
+    background: #FFF;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.tm i{
+    color: #731397;
+    font-size: 50px;
+    padding: 5px;
+}
+/* Gallery */
+.pic{
+    padding: 10px;
+}
+/* Blue Section */
+.blu{
+    background: #181174;
+}
+.h3w{
+    color: #FFF;
+}
+.atx{
+    padding: 25px;
+}
+
+/* Pricing Table */ 
+
+
+#price {
+    background-image:linear-gradient(#181174, #731397); 
+ }
+ 
+ .card {
+    background-image:linear-gradient(#731397, #181174);
+    border:2px solid #fff!important;
+    box-shadow:5px 5px 10px #222;
+ }
+ 
+.pbody hr {
+    border-top: 1px solid #fff;
+    width: 100px;
+}
+
+.ptitle h4 {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.pprice h3 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+    
+.pprice span {        
+    font-size: 14px;
+}
+
+.popular {
+    background: #181174;
+    padding: 20px;
+}
+
+.mcard {
+    margin-top:-50px;
+}
+
+.prtabs {
+    padding-top: 50px;
+}
+
+.card .btn {
+    margin:auto !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .mcard {
+    margin:0px;
+}
+    .card {
+        margin:10px;
+    }
+}
+ 
+/* Services */
+.serv{
+    padding: 25px;
+}
+.srv i{
+    font-size: 40px;
+    color: #181174;
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+/* Blrub */
+#blurb {
+    background-image:linear-gradient(#181174, #731397);
+}
+
+.blb i {
+    font-size: 60px;
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+ 
+.blb {
+    padding: 25px;
+}
+
+.blp {
+    min-height:125px;
+}
+
+/* Features */
+
+#features {
+    background-image:url(img/gallery/41.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    min-height: 500px;
+}
+
+.fbtn {
+    padding-top: 12%;
+}
+
+#flist {
+    background-image:linear-gradient(#181174, #731397);
+}
+
+.media img {
+    max-width: 150px;
+}
+
+/* Accordion */
+
+.btn-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link i {
+    font-size: 26px;
+    margin-right:10px;
+}
+
+/* Pre Footer */
+
+#pfooter {
+    background:#181174;
+}
+
+.pft {
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+}
+
+.pft a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* Address */
+
+.pft i {
+    margin-right: 10px;
+    color: #731397;
+}
+
+.pft .btn {
+    float: right;
+    margin-top: -25px;
+    text-transform: none;
+}
+
+/* Contact */
+
+#chero {
+    background-image:url(img/ctbg1.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    Min-height:500px;
+}
+
+#cont {
+    background-image:linear-gradient(#181174, #731397);
+}
+
+.cad i {
+    color: #e42448;
+}
+
+.rbtn {
+    float:right;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 991px) {
+    .bd-example {
+        padding-top: 100px;
+    }
+    .trn {
+        background: #fff;
+    }
+    .pft .btn {
+    margin-top: -25px !important;
+    }
+    .tm {
+        margin-bottom: 25px;
+    }
+    .srv2 {
+        margin-top: -30px;
+    }
+    .blb .btn {
+        margin: auto !important;
+    }
+}
